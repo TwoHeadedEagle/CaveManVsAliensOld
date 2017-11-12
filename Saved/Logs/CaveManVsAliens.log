@@ -1,4 +1,4 @@
-﻿Log file open, 11/08/17 10:12:04
+﻿Log file open, 11/12/17 08:50:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: CaveManVsAliens
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1885933841) SRandInit(-1885933841).
+LogInit: Display: RandInit(1421306733) SRandInit(1421306733).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3709383, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.161834
+LogStats: Stats thread started at 0.165814
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -194,341 +194,330 @@ LogInit: Base directory: E:/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.08-12.12.06:295][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.08-12.12.06:295][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.08-12.12.06:306][  0]LogInit: Computer: ARTHUR-DESKTOP
-[2017.11.08-12.12.06:306][  0]LogInit: User: Arthur
-[2017.11.08-12.12.06:306][  0]LogInit: CPU Page size=4096, Cores=3
-[2017.11.08-12.12.06:306][  0]LogInit: High frequency timer resolution =3.433749 MHz
-[2017.11.08-12.12.06:307][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.11.08-12.12.06:307][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.08-12.12.06:307][  0]LogMemory: Process Physical Memory: 271.75 MB used, 271.75 MB peak
-[2017.11.08-12.12.06:307][  0]LogMemory: Process Virtual Memory: 269.71 MB used, 269.71 MB peak
-[2017.11.08-12.12.06:307][  0]LogMemory: Physical Memory: 3520.67 MB used,  4637.99 MB free, 8158.66 MB total
-[2017.11.08-12.12.06:307][  0]LogMemory: Virtual Memory: 647.02 MB used,  4637.99 MB free, 134217728.00 MB total
-[2017.11.08-12.12.06:476][  0]LogInit: Overriding language with editor language configuration option (en).
-[2017.11.08-12.12.06:477][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2017.11.08-12.12.06:987][  0]LogInit: Setting process to per monitor DPI aware
-[2017.11.08-12.12.07:299][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.08-12.12.07:317][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
-[2017.11.08-12.12.07:317][  0]LogD3D11RHI:       2024/0/4079 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.11.08-12.12.07:318][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.08-12.12.07:318][  0]LogD3D11RHI:       0/0/4079 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.08-12.12.07:318][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.08-12.12.07:326][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.08-12.12.07:326][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.08-12.12.07:326][  0]LogWindows: EnumDisplayDevices:
-[2017.11.08-12.12.07:326][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
-[2017.11.08-12.12.07:326][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
-[2017.11.08-12.12.07:327][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
-[2017.11.08-12.12.07:327][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
-[2017.11.08-12.12.07:327][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
-[2017.11.08-12.12.07:327][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
-[2017.11.08-12.12.07:328][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.11.08-12.12.07:328][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
-[2017.11.08-12.12.07:328][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.9.2 (internal:22.19.677.1, unified:22.19.677.1)
-[2017.11.08-12.12.07:328][  0]LogD3D11RHI:      Driver Date: 9-18-2017
-[2017.11.08-12.12.07:328][  0]LogRHI: Texture pool is 1417 MB (70% of 2024 MB)
-[2017.11.08-12.12.07:356][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.08-12.12.07:369][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.11.08-12.12.07:370][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Intermediate/Shaders/WorkingDirectory/9568/).
-[2017.11.08-12.12.07:370][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Arthur/AppData/Local/Temp/UnrealShaderWorkingDir/B13F91274C518E591B8832A6324A6688/'.
-[2017.11.08-12.12.07:370][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.08-12.12.08:846][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.08-12.12.08:917][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.08-12.12.08:985][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.08-12.12.09:054][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.08-12.12.09:136][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.08-12.12.09:217][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.08-12.12.09:287][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.08-12.12.09:353][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.08-12.12.09:405][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.08-12.12.09:469][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.08-12.12.09:529][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.08-12.12.09:591][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.08-12.12.09:654][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.08-12.12.09:718][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.08-12.12.09:847][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.08-12.12.09:847][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.08-12.12.09:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.08-12.12.09:955][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.08-12.12.10:059][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.08-12.12.10:095][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.08-12.12.10:158][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.08-12.12.10:220][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.08-12.12.10:281][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.08-12.12.10:343][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.08-12.12.10:343][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.08-12.12.10:920][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.08-12.12.11:073][  0]LogDerivedDataCache: Loaded boot cache 0.15s 78MB C:/Users/Arthur/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.08-12.12.11:073][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Arthur/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.11.08-12.12.11:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.08-12.12.11:074][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.08-12.12.11:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.08-12.12.11:074][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.08-12.12.11:099][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.08-12.12.11:113][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Arthur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.08-12.12.11:131][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.08-12.12.11:131][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.08-12.12.11:132][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.08-12.12.11:132][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.08-12.12.11:681][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.08-12.12.12:077][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.08-12.12.12:125][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.08-12.12.12:125][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.08-12.12.12:125][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.08-12.12.12:125][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.08-12.12.12:125][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.08-12.12.12:157][  0]LogNetVersion: CaveManVsAliens , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2311697827)
-[2017.11.08-12.12.12:349][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
-[2017.11.08-12.12.12:976][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.031061 seconds
-[2017.11.08-12.12.12:985][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.11.08-12.12.12:985][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
-[2017.11.08-12.12.12:985][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.08-12.12.13:055][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.08-12.12.16:441][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.08-12.12.16:491][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.08-12.12.17:288][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.08-12.12.17:791][  0]SourceControl: Source control is disabled
-[2017.11.08-12.12.19:342][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.08-12.12.19:664][  0]LogOcInput: OculusInput pre-init called
-[2017.11.08-12.12.20:012][  0]LogEngine: Initializing Engine...
-[2017.11.08-12.12.20:015][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.08-12.12.20:321][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.08-12.12.20:321][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.08-12.12.20:478][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.08-12.12.20:494][  0]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.12.20:515][  0]LogInit: FAudioDevice initialized.
-[2017.11.08-12.12.20:786][  0]LogDerivedDataCache: Saved boot cache 0.27s 78MB C:/Users/Arthur/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.08-12.12.20:813][  0]LogInit: Texture streaming: Enabled
-[2017.11.08-12.12.20:936][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.08-12.12.21:085][  0]LogInit: Transaction tracking system initialized
-[2017.11.08-12.12.21:447][  0]BlueprintLog: New page: Editor Load
-[2017.11.08-12.12.22:483][  0]LocalizationService: Localization service is disabled
-[2017.11.08-12.12.23:373][  0]LogConsoleResponse: Display: 
-[2017.11.08-12.12.23:581][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.08-12.12.23:581][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.08-12.12.23:581][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.08-12.12.23:791][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/' took 0.01s
-[2017.11.08-12.12.25:036][  0]Cmd: MAP LOAD FILE="../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Maps/Empty.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.08-12.12.25:037][  0]LightingResults: New page: Lighting Build
-[2017.11.08-12.12.25:090][  0]MapCheck: New page: Map Check
-[2017.11.08-12.12.25:090][  0]LightingResults: New page: Lighting Build
-[2017.11.08-12.12.25:488][  0]LogAIModule: Creating AISystem for world Empty
-[2017.11.08-12.12.25:495][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.08-12.12.25:520][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.08-12.12.25:582][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.967ms to complete.
-[2017.11.08-12.12.25:582][  0]LogFileHelpers: Loading map 'Empty' took 0.546
-[2017.11.08-12.12.25:767][  0]LogCollectionManager: Loaded 0 collections in 0.002109 seconds
-[2017.11.08-12.12.25:870][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Collections/' took 0.01s
-[2017.11.08-12.12.25:870][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Developers/Arthur/Collections/' took 0.01s
-[2017.11.08-12.12.25:870][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Collections/' took 0.01s
-[2017.11.08-12.12.25:871][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.11.08-12.12.25:889][  0]LogContentBrowser: Native class hierarchy populated in 0.0177 seconds. Added 2363 classes and 519 folders.
-[2017.11.08-12.12.25:973][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.11.08-12.12.26:036][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.11.08-12.12.26:097][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.11.08-12.12.26:183][  0]LogSlate: Took 0.000481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.08-12.12.26:185][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.08-12.12.26:192][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.08-12.12.26:332][  0]LogRenderer: Reallocating scene render targets to support 1256x588 Format 10 NumSamples 1 (Frame:1).
-[2017.11.08-12.12.26:551][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2017.11.08-12.12.26:551][  0]LogLoad: (Engine Initialization) Total time: 22.87 seconds
-[2017.11.08-12.12.26:551][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.08-12.12.26:551][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.08-12.12.26:912][  0]SourceControl: On branch master
-[2017.11.08-12.12.26:913][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
-[2017.11.08-12.12.26:913][  0]SourceControl: Changes not staged for commit:
-[2017.11.08-12.12.26:913][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.11.08-12.12.26:913][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.08-12.12.26:913][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.11.08-12.12.26:913][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.11.08-12.12.26:913][  0]SourceControl: 	modified:   Saved/Logs/CaveManVsAliens.log
-[2017.11.08-12.12.26:913][  0]SourceControl: Untracked files:
-[2017.11.08-12.12.26:913][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.11.08-12.12.26:913][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-4E12D5564BB951AD220E9BB740A782FF/
-[2017.11.08-12.12.26:913][  0]SourceControl: 	Saved/Logs/CaveManVsAliens-backup-2017.11.08-10.12.04.log
-[2017.11.08-12.12.26:913][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.11.08-12.12.26:913][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.08-12.12.26:983][  0]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.08-12.12.27:238][  1]LogAssetRegistry: Asset discovery search completed in 14.9112 seconds
-[2017.11.08-12.12.27:240][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.08-12.12.27:240][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
-[2017.11.08-12.12.39:097][338]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.08-12.12.39:521][338]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
-[2017.11.08-12.12.40:377][338]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.08-12.12.40:451][338]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.11.08-12.12.40:602][339]LogSlate: Took 0.000411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.11.08-12.13.03:984][987]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.08-12.13.04:051][987]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.11.08-12.13.04:062][987]LogPlayLevel: [PlayLevel] Compiling BP-Caveman before play...
-[2017.11.08-12.13.04:483][987]LogPlayLevel: PlayLevel: Blueprint regeneration took 432 ms (1 blueprints)
-[2017.11.08-12.13.04:483][987]PIE: New page: PIE session: Empty (Nov 8, 2017, 8:13:04 AM)
-[2017.11.08-12.13.04:483][987]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Empty
-[2017.11.08-12.13.04:493][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009301s)
-[2017.11.08-12.13.04:494][987]LogAIModule: Creating AISystem for world Empty
-[2017.11.08-12.13.04:494][987]LogPlayLevel: PIE: World Init took: (0.001110s)
-[2017.11.08-12.13.04:494][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Empty.Empty to /Game/Maps/UEDPIE_0_Empty.Empty (0.010805s)
-[2017.11.08-12.13.04:532][987]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.13.04:544][987]LogInit: FAudioDevice initialized.
-[2017.11.08-12.13.04:590][987]LogLoad: Game class is 'StartGameMode_C'
-[2017.11.08-12.13.04:592][987]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.11.08-10.13.04
-[2017.11.08-12.13.04:592][987]LogWorld: Bringing up level for play took: 0.000666
-[2017.11.08-12.13.04:642][987]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2017.11.08-12.13.04:644][987]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Empty 0.036
-[2017.11.08-12.13.04:683][988]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.093902 > MaxSimulationTimeStep (0.050) for 'BP-Caveman_C_0', movement 'Walking'
-[2017.11.08-12.13.20:324][801]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.08-12.13.20:348][801]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.11.08-12.13.20:359][801]LogPlayLevel: [PlayLevel] Compiling BP-Caveman before play...
-[2017.11.08-12.13.20:894][801]LogPlayLevel: PlayLevel: Blueprint regeneration took 545 ms (1 blueprints)
-[2017.11.08-12.13.20:894][801]PIE: New page: PIE session: Empty (Nov 8, 2017, 8:13:20 AM)
-[2017.11.08-12.13.20:894][801]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Empty
-[2017.11.08-12.13.20:900][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006026s)
-[2017.11.08-12.13.20:901][801]LogAIModule: Creating AISystem for world Empty
-[2017.11.08-12.13.20:901][801]LogPlayLevel: PIE: World Init took: (0.001015s)
-[2017.11.08-12.13.20:901][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Empty.Empty to /Game/Maps/UEDPIE_0_Empty.Empty (0.007338s)
-[2017.11.08-12.13.20:948][801]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.13.20:959][801]LogInit: FAudioDevice initialized.
-[2017.11.08-12.13.21:007][801]LogLoad: Game class is 'StartGameMode_C'
-[2017.11.08-12.13.21:009][801]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.11.08-10.13.21
-[2017.11.08-12.13.21:009][801]LogWorld: Bringing up level for play took: 0.000853
-[2017.11.08-12.13.21:014][801]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Empty 0.406
-[2017.11.08-12.13.21:073][801]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2017.11.08-12.13.21:125][802]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.093902 > MaxSimulationTimeStep (0.050) for 'BP-Caveman_C_0', movement 'Walking'
-[2017.11.08-12.13.35:278][250]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.08-12.13.35:301][250]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.11.08-12.13.35:312][250]LogPlayLevel: [PlayLevel] Compiling BP-Caveman before play...
-[2017.11.08-12.13.35:955][250]LogPlayLevel: PlayLevel: Blueprint regeneration took 654 ms (1 blueprints)
-[2017.11.08-12.13.35:956][250]PIE: New page: PIE session: Empty (Nov 8, 2017, 8:13:35 AM)
-[2017.11.08-12.13.35:956][250]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Empty
-[2017.11.08-12.13.35:964][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007834s)
-[2017.11.08-12.13.35:965][250]LogAIModule: Creating AISystem for world Empty
-[2017.11.08-12.13.35:965][250]LogPlayLevel: PIE: World Init took: (0.001193s)
-[2017.11.08-12.13.35:965][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Empty.Empty to /Game/Maps/UEDPIE_0_Empty.Empty (0.009381s)
-[2017.11.08-12.13.36:009][250]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.13.36:020][250]LogInit: FAudioDevice initialized.
-[2017.11.08-12.13.36:066][250]LogLoad: Game class is 'StartGameMode_C'
-[2017.11.08-12.13.36:068][250]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.11.08-10.13.36
-[2017.11.08-12.13.36:068][250]LogWorld: Bringing up level for play took: 0.000764
-[2017.11.08-12.13.36:073][250]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Empty 1.465
-[2017.11.08-12.13.36:167][251]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.093902 > MaxSimulationTimeStep (0.050) for 'BP-Caveman_C_0', movement 'Walking'
-[2017.11.08-12.13.40:344][654]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.13.40:410][655]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.13.41:262][754]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.08-12.13.41:286][754]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.11.08-12.13.41:297][754]LogPlayLevel: [PlayLevel] Compiling BP-Caveman before play...
-[2017.11.08-12.13.42:070][754]LogPlayLevel: PlayLevel: Blueprint regeneration took 784 ms (1 blueprints)
-[2017.11.08-12.13.42:071][754]PIE: New page: PIE session: Empty (Nov 8, 2017, 8:13:42 AM)
-[2017.11.08-12.13.42:071][754]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Empty
-[2017.11.08-12.13.42:078][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006979s)
-[2017.11.08-12.13.42:078][754]LogAIModule: Creating AISystem for world Empty
-[2017.11.08-12.13.42:079][754]LogPlayLevel: PIE: World Init took: (0.001096s)
-[2017.11.08-12.13.42:079][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Empty.Empty to /Game/Maps/UEDPIE_0_Empty.Empty (0.008523s)
-[2017.11.08-12.13.42:150][754]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.13.42:173][754]LogInit: FAudioDevice initialized.
-[2017.11.08-12.13.42:225][754]LogLoad: Game class is 'StartGameMode_C'
-[2017.11.08-12.13.42:226][754]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.11.08-10.13.42
-[2017.11.08-12.13.42:226][754]LogWorld: Bringing up level for play took: 0.000775
-[2017.11.08-12.13.42:231][754]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Empty 1.623
-[2017.11.08-12.13.42:335][755]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.093902 > MaxSimulationTimeStep (0.050) for 'BP-Caveman_C_0', movement 'Walking'
-[2017.11.08-12.13.53:325][871]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.08-12.13.53:349][871]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.11.08-12.13.53:361][871]LogPlayLevel: [PlayLevel] Compiling BP-Caveman before play...
-[2017.11.08-12.13.54:288][871]LogPlayLevel: PlayLevel: Blueprint regeneration took 938 ms (1 blueprints)
-[2017.11.08-12.13.54:288][871]PIE: New page: PIE session: Empty (Nov 8, 2017, 8:13:54 AM)
-[2017.11.08-12.13.54:288][871]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Empty
-[2017.11.08-12.13.54:295][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006836s)
-[2017.11.08-12.13.54:296][871]LogAIModule: Creating AISystem for world Empty
-[2017.11.08-12.13.54:296][871]LogPlayLevel: PIE: World Init took: (0.000891s)
-[2017.11.08-12.13.54:296][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Empty.Empty to /Game/Maps/UEDPIE_0_Empty.Empty (0.008016s)
-[2017.11.08-12.13.54:335][871]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.13.54:346][871]LogInit: FAudioDevice initialized.
-[2017.11.08-12.13.54:393][871]LogLoad: Game class is 'StartGameMode_C'
-[2017.11.08-12.13.54:394][871]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.11.08-10.13.54
-[2017.11.08-12.13.54:395][871]LogWorld: Bringing up level for play took: 0.000767
-[2017.11.08-12.13.54:400][871]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Empty 1.792
-[2017.11.08-12.13.54:485][872]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.093902 > MaxSimulationTimeStep (0.050) for 'BP-Caveman_C_0', movement 'Walking'
-[2017.11.08-12.14.30:977][791]BlueprintLog: New page: Compile BP-Caveman
-[2017.11.08-12.14.34:610][ 93]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.08-12.14.34:634][ 93]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.11.08-12.14.34:646][ 93]LogPlayLevel: [PlayLevel] Compiling BP-Caveman before play...
-[2017.11.08-12.14.35:056][ 93]LogPlayLevel: PlayLevel: Blueprint regeneration took 422 ms (1 blueprints)
-[2017.11.08-12.14.35:057][ 93]PIE: New page: PIE session: Empty (Nov 8, 2017, 8:14:35 AM)
-[2017.11.08-12.14.35:057][ 93]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Empty
-[2017.11.08-12.14.35:064][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007004s)
-[2017.11.08-12.14.35:065][ 93]LogAIModule: Creating AISystem for world Empty
-[2017.11.08-12.14.35:065][ 93]LogPlayLevel: PIE: World Init took: (0.000919s)
-[2017.11.08-12.14.35:065][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Empty.Empty to /Game/Maps/UEDPIE_0_Empty.Empty (0.008238s)
-[2017.11.08-12.14.35:107][ 93]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.14.35:118][ 93]LogInit: FAudioDevice initialized.
-[2017.11.08-12.14.35:165][ 93]LogLoad: Game class is 'StartGameMode_C'
-[2017.11.08-12.14.35:166][ 93]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.11.08-10.14.35
-[2017.11.08-12.14.35:167][ 93]LogWorld: Bringing up level for play took: 0.000775
-[2017.11.08-12.14.35:172][ 93]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Empty 0.564
-[2017.11.08-12.14.35:266][ 94]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.093902 > MaxSimulationTimeStep (0.050) for 'BP-Caveman_C_0', movement 'Walking'
-[2017.11.08-12.14.44:919][ 67]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.08-12.14.44:943][ 67]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.11.08-12.14.44:955][ 67]LogPlayLevel: [PlayLevel] Compiling BP-Caveman before play...
-[2017.11.08-12.14.45:485][ 67]LogPlayLevel: PlayLevel: Blueprint regeneration took 542 ms (1 blueprints)
-[2017.11.08-12.14.45:486][ 67]PIE: New page: PIE session: Empty (Nov 8, 2017, 8:14:45 AM)
-[2017.11.08-12.14.45:486][ 67]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Empty
-[2017.11.08-12.14.45:492][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005953s)
-[2017.11.08-12.14.45:492][ 67]LogAIModule: Creating AISystem for world Empty
-[2017.11.08-12.14.45:493][ 67]LogPlayLevel: PIE: World Init took: (0.000892s)
-[2017.11.08-12.14.45:493][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Empty.Empty to /Game/Maps/UEDPIE_0_Empty.Empty (0.007118s)
-[2017.11.08-12.14.45:536][ 67]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.14.45:547][ 67]LogInit: FAudioDevice initialized.
-[2017.11.08-12.14.45:587][ 67]LogLoad: Game class is 'StartGameMode_C'
-[2017.11.08-12.14.45:589][ 67]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.11.08-10.14.45
-[2017.11.08-12.14.45:589][ 67]LogWorld: Bringing up level for play took: 0.000775
-[2017.11.08-12.14.45:594][ 67]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Empty 0.986
-[2017.11.08-12.14.45:699][ 68]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.093902 > MaxSimulationTimeStep (0.050) for 'BP-Caveman_C_0', movement 'Walking'
-[2017.11.08-12.15.14:519][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Content_CaveMan/Blueprints/BP-Caveman" FILE="../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Caveman.uasset" SILENT=true
-[2017.11.08-12.15.14:609][284]LogSavePackage: Save=85.25ms
-[2017.11.08-12.15.14:609][284]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/BP-Caveman74A56D2B4E1B1E76E45C20AD3599B8DB.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Caveman.uasset'
-[2017.11.08-12.15.14:611][284]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Caveman.uasset
-[2017.11.08-12.15.34:790][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Content_CaveMan/Blueprints/BP-Caveman" FILE="../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Caveman.uasset" SILENT=true
-[2017.11.08-12.15.34:863][635]LogSavePackage: Save=69.87ms
-[2017.11.08-12.15.34:863][635]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/BP-CavemanDC78B2E24E553D34605DFDA82B968719.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Caveman.uasset'
-[2017.11.08-12.15.34:865][635]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Caveman.uasset
-[2017.11.08-12.15.43:120][489]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.08-12.15.43:147][489]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.11.08-12.15.43:159][489]LogPlayLevel: [PlayLevel] Compiling BP-Caveman before play...
-[2017.11.08-12.15.43:837][489]LogPlayLevel: PlayLevel: Blueprint regeneration took 690 ms (1 blueprints)
-[2017.11.08-12.15.43:838][489]PIE: New page: PIE session: Empty (Nov 8, 2017, 8:15:43 AM)
-[2017.11.08-12.15.43:838][489]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Empty
-[2017.11.08-12.15.43:845][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007386s)
-[2017.11.08-12.15.43:846][489]LogAIModule: Creating AISystem for world Empty
-[2017.11.08-12.15.43:846][489]LogPlayLevel: PIE: World Init took: (0.001108s)
-[2017.11.08-12.15.43:846][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Empty.Empty to /Game/Maps/UEDPIE_0_Empty.Empty (0.008792s)
-[2017.11.08-12.15.43:891][489]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.15.43:903][489]LogInit: FAudioDevice initialized.
-[2017.11.08-12.15.43:945][489]LogLoad: Game class is 'StartGameMode_C'
-[2017.11.08-12.15.43:947][489]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.11.08-10.15.43
-[2017.11.08-12.15.43:947][489]LogWorld: Bringing up level for play took: 0.000772
-[2017.11.08-12.15.43:953][489]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Empty 1.345
-[2017.11.08-12.15.48:552][908]LogEditorTransaction: Undo Edit Gravity Scale
-[2017.11.08-12.15.48:559][908]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.BP-Caveman_C_1.CollisionCylinder) Component already registered.
-[2017.11.08-12.15.48:560][908]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_0:PersistentLevel.BP-Caveman_C_9.CollisionCylinder) Component already registered.
-[2017.11.08-12.15.48:562][908]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.BP-Caveman_C_1.Arrow) Component already registered.
-[2017.11.08-12.15.48:563][908]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.BP-Caveman_C_1.CharacterMesh0) Component already registered.
-[2017.11.08-12.15.48:564][908]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_0:PersistentLevel.BP-Caveman_C_9.Arrow) Component already registered.
-[2017.11.08-12.15.48:582][908]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.08-12.15.50:142][ 73]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.08-12.15.50:167][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.08-12.15.50:167][ 73]PIE: New page: PIE session: Empty (Nov 8, 2017, 8:15:50 AM)
-[2017.11.08-12.15.50:167][ 73]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Empty
-[2017.11.08-12.15.50:176][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008200s)
-[2017.11.08-12.15.50:177][ 73]LogAIModule: Creating AISystem for world Empty
-[2017.11.08-12.15.50:177][ 73]LogPlayLevel: PIE: World Init took: (0.001303s)
-[2017.11.08-12.15.50:177][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Empty.Empty to /Game/Maps/UEDPIE_0_Empty.Empty (0.009986s)
-[2017.11.08-12.15.50:264][ 73]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-12.15.50:276][ 73]LogInit: FAudioDevice initialized.
-[2017.11.08-12.15.50:330][ 73]LogLoad: Game class is 'StartGameMode_C'
-[2017.11.08-12.15.50:331][ 73]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.11.08-10.15.50
-[2017.11.08-12.15.50:332][ 73]LogWorld: Bringing up level for play took: 0.000806
-[2017.11.08-12.15.50:336][ 73]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Empty -0.272
-[2017.11.08-12.16.07:814][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Content_CaveMan/Blueprints/BP-Caveman" FILE="../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Caveman.uasset" SILENT=true
-[2017.11.08-12.16.07:899][693]LogSavePackage: Save=81.50ms
-[2017.11.08-12.16.07:899][693]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/BP-Caveman7CD3803240EF08E0577D3381288033EE.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Caveman.uasset'
-[2017.11.08-12.16.07:901][693]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Caveman.uasset
+[2017.11.12-10.50.25:167][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.12-10.50.25:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.12-10.50.25:200][  0]LogInit: Computer: ARTHUR-DESKTOP
+[2017.11.12-10.50.25:200][  0]LogInit: User: Arthur
+[2017.11.12-10.50.25:200][  0]LogInit: CPU Page size=4096, Cores=3
+[2017.11.12-10.50.25:200][  0]LogInit: High frequency timer resolution =3.433744 MHz
+[2017.11.12-10.50.25:200][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.11.12-10.50.25:200][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.12-10.50.25:200][  0]LogMemory: Process Physical Memory: 271.87 MB used, 271.87 MB peak
+[2017.11.12-10.50.25:200][  0]LogMemory: Process Virtual Memory: 269.72 MB used, 269.72 MB peak
+[2017.11.12-10.50.25:200][  0]LogMemory: Physical Memory: 3246.94 MB used,  4911.72 MB free, 8158.66 MB total
+[2017.11.12-10.50.25:200][  0]LogMemory: Virtual Memory: 647.02 MB used,  4911.72 MB free, 134217728.00 MB total
+[2017.11.12-10.50.25:402][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.11.12-10.50.25:402][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.11.12-10.50.25:955][  0]LogInit: Setting process to per monitor DPI aware
+[2017.11.12-10.50.26:583][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.12-10.50.26:611][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2017.11.12-10.50.26:611][  0]LogD3D11RHI:       2024/0/4079 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.11.12-10.50.26:623][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.12-10.50.26:623][  0]LogD3D11RHI:       0/0/4079 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.12-10.50.26:623][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.12-10.50.26:632][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.12-10.50.26:632][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.12-10.50.26:632][  0]LogWindows: EnumDisplayDevices:
+[2017.11.12-10.50.26:633][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2017.11.12-10.50.26:633][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.12-10.50.26:633][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.12-10.50.26:634][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.12-10.50.26:634][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.12-10.50.26:634][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.12-10.50.26:635][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.11.12-10.50.26:635][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2017.11.12-10.50.26:635][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.9.2 (internal:22.19.677.1, unified:22.19.677.1)
+[2017.11.12-10.50.26:635][  0]LogD3D11RHI:      Driver Date: 9-18-2017
+[2017.11.12-10.50.26:635][  0]LogRHI: Texture pool is 1417 MB (70% of 2024 MB)
+[2017.11.12-10.50.26:679][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.12-10.50.26:935][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.12-10.50.27:034][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Intermediate/Shaders/WorkingDirectory/8568/).
+[2017.11.12-10.50.27:034][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Arthur/AppData/Local/Temp/UnrealShaderWorkingDir/9885423D4CFC2035C18BCDB68E269CC5/'.
+[2017.11.12-10.50.27:044][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.12-10.50.30:862][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.12-10.50.30:957][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.12-10.50.31:050][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.12-10.50.31:146][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.12-10.50.31:271][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.12-10.50.31:368][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.12-10.50.31:479][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.12-10.50.31:571][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.12-10.50.31:656][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.12-10.50.31:760][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.12-10.50.31:859][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.12-10.50.31:959][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.12-10.50.32:058][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.12-10.50.32:147][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.12-10.50.32:324][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.12-10.50.32:324][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.12-10.50.32:441][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.12-10.50.32:512][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.12-10.50.32:714][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.12-10.50.32:767][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.12-10.50.32:858][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.12-10.50.32:947][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.12-10.50.33:041][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.12-10.50.33:179][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.12-10.50.33:179][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.12-10.50.34:582][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.12-10.50.35:859][  0]LogDerivedDataCache: Loaded boot cache 1.28s 78MB C:/Users/Arthur/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.12-10.50.35:859][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Arthur/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.11.12-10.50.35:860][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.12-10.50.35:860][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.12-10.50.35:860][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.12-10.50.35:860][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.12-10.50.35:927][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.12-10.50.35:941][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Arthur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.12-10.50.36:014][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.12-10.50.36:080][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.12-10.50.36:122][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.12-10.50.36:122][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.12-10.50.41:510][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.12-10.50.43:011][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.12-10.50.43:080][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.12-10.50.43:081][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.12-10.50.43:081][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.12-10.50.43:081][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.12-10.50.43:081][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.12-10.50.43:461][  0]LogNetVersion: CaveManVsAliens , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2311697827)
+[2017.11.12-10.50.44:468][  0]LogAssetRegistry: FAssetRegistry took 0.0329 seconds to start up
+[2017.11.12-10.50.50:269][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.136876 seconds
+[2017.11.12-10.50.50:276][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.11.12-10.50.50:276][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2017.11.12-10.50.50:276][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.12-10.50.50:358][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.12-10.51.05:828][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.12-10.51.05:916][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.12-10.51.07:784][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.12-10.51.08:969][  0]SourceControl: Source control is disabled
+[2017.11.12-10.51.11:607][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.12-10.51.12:049][  0]LogOcInput: OculusInput pre-init called
+[2017.11.12-10.51.12:560][  0]LogEngine: Initializing Engine...
+[2017.11.12-10.51.12:603][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.12-10.51.13:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.12-10.51.13:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.12-10.51.13:896][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.12-10.51.14:909][  0]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.12-10.51.14:964][  0]LogInit: FAudioDevice initialized.
+[2017.11.12-10.51.14:978][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/Arthur/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.12-10.51.15:003][  0]LogInit: Texture streaming: Enabled
+[2017.11.12-10.51.15:254][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.12-10.51.15:634][  0]LogInit: Transaction tracking system initialized
+[2017.11.12-10.51.16:306][  0]BlueprintLog: New page: Editor Load
+[2017.11.12-10.51.18:478][  0]LocalizationService: Localization service is disabled
+[2017.11.12-10.51.20:403][  0]LogConsoleResponse: Display: 
+[2017.11.12-10.51.22:331][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/' took 0.02s
+[2017.11.12-10.51.22:331][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.12-10.51.22:331][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.12-10.51.22:337][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.12-10.51.25:418][  0]Cmd: MAP LOAD FILE="../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Maps/Empty.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.12-10.51.25:539][  0]LightingResults: New page: Lighting Build
+[2017.11.12-10.51.25:657][  0]MapCheck: New page: Map Check
+[2017.11.12-10.51.25:657][  0]LightingResults: New page: Lighting Build
+[2017.11.12-10.51.29:801][  0]LogAIModule: Creating AISystem for world Empty
+[2017.11.12-10.51.30:285][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.12-10.51.30:472][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.12-10.51.30:580][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.908ms to complete.
+[2017.11.12-10.51.30:580][  0]LogFileHelpers: Loading map 'Empty' took 5.181
+[2017.11.12-10.51.32:281][  0]LogCollectionManager: Loaded 0 collections in 0.002282 seconds
+[2017.11.12-10.51.32:588][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Collections/' took 0.01s
+[2017.11.12-10.51.32:588][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Developers/Arthur/Collections/' took 0.01s
+[2017.11.12-10.51.32:588][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Collections/' took 0.01s
+[2017.11.12-10.51.32:588][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.12-10.51.32:649][  0]LogContentBrowser: Native class hierarchy populated in 0.0609 seconds. Added 2363 classes and 519 folders.
+[2017.11.12-10.51.32:908][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.12-10.51.34:185][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.11.12-10.51.34:303][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.12-10.51.35:315][  0]LogSlate: Took 0.014252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.12-10.51.35:340][  0]LogSlate: Took 0.016009 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.12-10.51.35:394][  0]LogSlate: Took 0.015126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.12-10.51.38:574][  0]LogRenderer: Reallocating scene render targets to support 1256x640 Format 10 NumSamples 1 (Frame:1).
+[2017.11.12-10.51.40:015][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.12-10.51.40:015][  0]LogLoad: (Engine Initialization) Total time: 78.60 seconds
+[2017.11.12-10.51.40:015][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.12-10.51.40:015][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.12-10.51.40:450][  0]SourceControl: On branch master
+[2017.11.12-10.51.40:450][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.12-10.51.40:450][  0]SourceControl: Changes not staged for commit:
+[2017.11.12-10.51.40:450][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.12-10.51.40:450][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.12-10.51.40:450][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-27250C084219CED23505C2B17F52207A/CrashReportClient.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4E12D5564BB951AD220E9BB740A782FF/CrashReportClient.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8141A1D642B66C46F64811BA2709AAC7/CrashReportClient.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-9CAD0BCB4504C781E42A0088C241FB2D/CrashReportClient.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CD1D72DA40F266525527AFA1C509F047/CrashReportClient.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Logs/CaveManVsAliens-backup-2017.11.06-13.21.21.log
+[2017.11.12-10.51.40:450][  0]SourceControl: 	modified:   Saved/Logs/CaveManVsAliens.log
+[2017.11.12-10.51.40:450][  0]SourceControl: Untracked files:
+[2017.11.12-10.51.40:450][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.12-10.51.40:450][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-40266237468FC01ECFAE59A8F6BE816F/
+[2017.11.12-10.51.40:451][  0]SourceControl: 	Saved/Logs/CaveManVsAliens-backup-2017.11.12-08.50.22.log
+[2017.11.12-10.51.40:451][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.12-10.51.40:457][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.12-10.51.40:618][  0]LogSlate: Took 0.029412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.12-10.51.41:385][  3]LogAssetRegistry: Asset discovery search completed in 56.9397 seconds
+[2017.11.12-10.51.41:396][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.12-10.51.41:396][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2017.11.12-11.05.24:089][130]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.12-11.06.02:225][679]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2017.11.12-11.06.03:644][692]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Empty' took 0.022
+[2017.11.12-11.06.03:672][692]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Content_CaveMan/Blueprints/AI/NewBehaviorTree] ([1] browsable assets)...
+[2017.11.12-11.06.03:672][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Content_CaveMan/Blueprints/AI/NewBehaviorTree]
+[2017.11.12-11.06.03:695][692]LogSavePackage: Save=16.06ms
+[2017.11.12-11.06.03:695][692]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/NewBehaviorTree_Auto17BD395174E1801445D7624B7F478259C.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/NewBehaviorTree_Auto1.uasset'
+[2017.11.12-11.06.03:695][692]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/NewBehaviorTree_Auto1.uasset
+[2017.11.12-11.06.03:696][692]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Content_CaveMan/Blueprints/AI/NewBlackboardData] ([1] browsable assets)...
+[2017.11.12-11.06.03:696][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Content_CaveMan/Blueprints/AI/NewBlackboardData]
+[2017.11.12-11.06.03:698][692]LogSavePackage: Save=0.95ms
+[2017.11.12-11.06.03:698][692]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/NewBlackboardData_Auto1EB7B8B2B4EABFCEDE2B02DB92B39BA20.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/NewBlackboardData_Auto1.uasset'
+[2017.11.12-11.06.03:698][692]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/NewBlackboardData_Auto1.uasset
+[2017.11.12-11.06.03:699][692]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Content_CaveMan/Blueprints/AI/AIEnemyController-BP] ([1] browsable assets)...
+[2017.11.12-11.06.03:699][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Content_CaveMan/Blueprints/AI/AIEnemyController-BP]
+[2017.11.12-11.06.03:710][692]LogSavePackage: Save=10.27ms
+[2017.11.12-11.06.03:710][692]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyController-BP_Auto1A816B443454959B3DBFB90A97AD8CAC0.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/AIEnemyController-BP_Auto1.uasset'
+[2017.11.12-11.06.03:711][692]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/AIEnemyController-BP_Auto1.uasset
+[2017.11.12-11.06.03:711][692]LogFileHelpers: Auto-saving content packages took 0.066
+[2017.11.12-11.06.17:624][950]SourceControl: On branch master
+[2017.11.12-11.06.17:624][950]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.12-11.06.17:624][950]SourceControl: Changes not staged for commit:
+[2017.11.12-11.06.17:624][950]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.12-11.06.17:624][950]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.12-11.06.17:624][950]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.12-11.06.17:624][950]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-27250C084219CED23505C2B17F52207A/CrashReportClient.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4E12D5564BB951AD220E9BB740A782FF/CrashReportClient.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8141A1D642B66C46F64811BA2709AAC7/CrashReportClient.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-9CAD0BCB4504C781E42A0088C241FB2D/CrashReportClient.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CD1D72DA40F266525527AFA1C509F047/CrashReportClient.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Logs/CaveManVsAliens-backup-2017.11.06-13.21.21.log
+[2017.11.12-11.06.17:624][950]SourceControl: 	modified:   Saved/Logs/CaveManVsAliens.log
+[2017.11.12-11.06.17:624][950]SourceControl: Untracked files:
+[2017.11.12-11.06.17:624][950]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.12-11.06.17:624][950]SourceControl: 	Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/
+[2017.11.12-11.06.17:624][950]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-40266237468FC01ECFAE59A8F6BE816F/
+[2017.11.12-11.06.17:624][950]SourceControl: 	Saved/Logs/CaveManVsAliens-backup-2017.11.12-08.50.22.log
+[2017.11.12-11.06.17:624][950]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.12-11.06.17:982][950]LogSavePackage: Save=1.02ms
+[2017.11.12-11.06.17:982][950]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyBehaviorTE664CEB5420D98D9DECAFC90A007B366.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBehaviorT.uasset'
+[2017.11.12-11.06.17:986][950]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBehaviorT.uasset
+[2017.11.12-11.06.31:848][479]SourceControl: On branch master
+[2017.11.12-11.06.31:848][479]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.12-11.06.31:848][479]SourceControl: Changes to be committed:
+[2017.11.12-11.06.31:848][479]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.11.12-11.06.31:848][479]SourceControl: 	new file:   Content/Content_CaveMan/Blueprints/AI/AIEnemyBehaviorT.uasset
+[2017.11.12-11.06.31:848][479]SourceControl: Changes not staged for commit:
+[2017.11.12-11.06.31:848][479]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.12-11.06.31:848][479]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.12-11.06.31:848][479]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.12-11.06.31:848][479]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.11.12-11.06.31:848][479]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-27250C084219CED23505C2B17F52207A/CrashReportClient.ini
+[2017.11.12-11.06.31:848][479]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4E12D5564BB951AD220E9BB740A782FF/CrashReportClient.ini
+[2017.11.12-11.06.31:848][479]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8141A1D642B66C46F64811BA2709AAC7/CrashReportClient.ini
+[2017.11.12-11.06.31:849][479]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-9CAD0BCB4504C781E42A0088C241FB2D/CrashReportClient.ini
+[2017.11.12-11.06.31:849][479]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CD1D72DA40F266525527AFA1C509F047/CrashReportClient.ini
+[2017.11.12-11.06.31:849][479]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.12-11.06.31:849][479]SourceControl: 	deleted:    Saved/Logs/CaveManVsAliens-backup-2017.11.06-13.21.21.log
+[2017.11.12-11.06.31:849][479]SourceControl: 	modified:   Saved/Logs/CaveManVsAliens.log
+[2017.11.12-11.06.31:849][479]SourceControl: Untracked files:
+[2017.11.12-11.06.31:849][479]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.12-11.06.31:849][479]SourceControl: 	Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/
+[2017.11.12-11.06.31:849][479]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-40266237468FC01ECFAE59A8F6BE816F/
+[2017.11.12-11.06.31:849][479]SourceControl: 	Saved/Logs/CaveManVsAliens-backup-2017.11.12-08.50.22.log
+[2017.11.12-11.06.32:151][479]LogSavePackage: Save=1.23ms
+[2017.11.12-11.06.32:151][479]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyBlackboardD7068E6941A95945B0BC31B18525C996.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset'
+[2017.11.12-11.06.32:153][479]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset
+[2017.11.12-11.07.42:123][775]LogSlate: Took 0.000718 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.12-11.08.48:119][407]LogSavePackage: Save=1.99ms
+[2017.11.12-11.08.48:119][407]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyBlackboard6B76D5294D6249D04CF5A8976C7EC3E1.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset'
+[2017.11.12-11.08.48:121][407]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset
+[2017.11.12-11.09.25:370][594]LogSavePackage: Save=1.88ms
+[2017.11.12-11.09.25:370][594]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyBlackboardCEECCB874EEFC29CA757CCA68C0004EB.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset'
+[2017.11.12-11.09.25:372][594]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset
+[2017.11.12-11.10.09:222][648]LogSavePackage: Save=1.28ms
+[2017.11.12-11.10.09:222][648]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyStateEnum8A1DFEE44E91A2187801978FC9A54032.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyStateEnum.uasset'
+[2017.11.12-11.10.09:224][648]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyStateEnum.uasset
+[2017.11.12-11.13.47:930][826]LogSlate: Took 0.006250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.12-11.14.01:671][241]LogSlate: Took 0.000640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.12-11.14.01:842][241]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2017.11.12-11.14.03:318][242]LogRenderer: Reallocating scene render targets to support 1256x712 Format 10 NumSamples 1 (Frame:1).
+[2017.11.12-11.14.05:401][470]BlueprintLog: New page: Compile AIEnemyController-BP
+[2017.11.12-11.14.15:844][594]LogSlate: Took 0.020295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.12-11.14.28:188][ 27]BlueprintLog: New page: Compile AIEnemyController-BP
+[2017.11.12-11.14.28:985][ 72]LogSavePackage: Save=14.29ms
+[2017.11.12-11.14.28:985][ 72]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyController-BP4A0332264E155FEA4B41F3A0DAFA5267.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset'
+[2017.11.12-11.14.28:987][ 72]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset
+[2017.11.12-11.14.29:237][ 73]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.
+[2017.11.12-11.14.44:538][883]LogSavePackage: Save=13.05ms
+[2017.11.12-11.14.44:538][883]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyController-BP24D44A55456FC3E17F76DD9FFDAF323E.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset'
+[2017.11.12-11.14.44:540][883]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset
+[2017.11.12-11.15.01:702][600]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Content_CaveMan/Blueprints/AI/BTService_BlueprintBase_New.
+[2017.11.12-11.15.25:831][453]SourceControl: On branch master
+[2017.11.12-11.15.25:831][453]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.12-11.15.25:831][453]SourceControl: Changes to be committed:
+[2017.11.12-11.15.25:831][453]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.11.12-11.15.25:831][453]SourceControl: 	new file:   Content/Content_CaveMan/Blueprints/AI/AIEnemyBehaviorT.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	new file:   Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	new file:   Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	new file:   Content/Content_CaveMan/Blueprints/AI/AIEnemyStateEnum.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: Changes not staged for commit:
+[2017.11.12-11.15.25:831][453]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.12-11.15.25:831][453]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-27250C084219CED23505C2B17F52207A/CrashReportClient.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4E12D5564BB951AD220E9BB740A782FF/CrashReportClient.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8141A1D642B66C46F64811BA2709AAC7/CrashReportClient.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-9CAD0BCB4504C781E42A0088C241FB2D/CrashReportClient.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CD1D72DA40F266525527AFA1C509F047/CrashReportClient.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Logs/CaveManVsAliens-backup-2017.11.06-13.21.21.log
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Saved/Logs/CaveManVsAliens.log
+[2017.11.12-11.15.25:831][453]SourceControl: Untracked files:
+[2017.11.12-11.15.25:831][453]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.12-11.15.25:831][453]SourceControl: 	Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/
+[2017.11.12-11.15.25:831][453]SourceControl: 	Saved/Backup/AIEnemyBlackboard_2017-11-12-09-08-48.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	Saved/Backup/AIEnemyController-BP_2017-11-12-09-14-44.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-40266237468FC01ECFAE59A8F6BE816F/
+[2017.11.12-11.15.25:831][453]SourceControl: 	Saved/Logs/CaveManVsAliens-backup-2017.11.12-08.50.22.log
+[2017.11.12-11.15.26:154][453]LogMetaData: Removing '/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck.SKEL_Service-VisionCheck_C' ref from Metadata '/Game/Content_CaveMan/Blueprints/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2017.11.12-11.15.26:154][453]LogMetaData: Removing '/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck.Service-VisionCheck_C' ref from Metadata '/Game/Content_CaveMan/Blueprints/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2017.11.12-11.15.26:177][453]LogSavePackage: Save=3.17ms
+[2017.11.12-11.15.26:177][453]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Service-VisionCheckDDC5407C44E953138DAC12A982F0E61C.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset'
+[2017.11.12-11.15.26:178][453]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset
+[2017.11.12-11.15.26:811][462]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck.
+[2017.11.12-11.15.59:738][971]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Content_CaveMan/Blueprints/BP-Enemy.
+[2017.11.12-11.16.09:499][961]BlueprintLog: New page: Compile BP-Enemy
+[2017.11.12-11.17.19:207][115]BlueprintLog: New page: Compile BP-Enemy
+[2017.11.12-11.17.19:948][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Content_CaveMan/Blueprints/BP-Enemy" FILE="../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Enemy.uasset" SILENT=true
+[2017.11.12-11.17.19:980][150]LogSavePackage: Save=30.71ms
+[2017.11.12-11.17.19:980][150]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/BP-EnemyCB28B83940FEB72A1C6B818D4DED839D.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Enemy.uasset'
+[2017.11.12-11.17.19:982][150]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Enemy.uasset
+[2017.11.12-11.17.20:284][157]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Content_CaveMan/Blueprints/BP-Enemy.
+[2017.11.12-11.19.12:852][436]LogSlate: Took 0.019719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.12-11.20.24:043][819]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Empty' took 0.037
+[2017.11.12-11.20.24:045][819]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck] ([1] browsable assets)...
+[2017.11.12-11.20.24:045][819]OBJ SavePackage: Finished generating thumbnails for package [/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck]
+[2017.11.12-11.20.24:063][819]LogSavePackage: Save=13.25ms
+[2017.11.12-11.20.24:063][819]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Service-VisionCheck_Auto22A5613EA4DFAC75A4C62E39D23A6ADF2.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck_Auto2.uasset'
+[2017.11.12-11.20.24:064][819]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck_Auto2.uasset
+[2017.11.12-11.20.24:064][819]LogFileHelpers: Auto-saving content packages took 0.020
+[2017.11.12-11.20.49:791][890]LogClass: Warning: Property NewVar_0 of NewVar_0 has a struct type mismatch (tag BlackboardKeySelector != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.11.12-11.20.50:808][  9]BlueprintLog: New page: Compile Service-VisionCheck
+[2017.11.12-11.20.50:816][  9]LogBlueprint: Error: [Compiler Service-VisionCheck] The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.11.12-11.20.50:855][  9]LogBlueprint: Warning: [Compiler Service-VisionCheck] [1829.51] Compile of Service-VisionCheck failed. 1 Fatal Issue(s) 0 Warning(s) [in 46 ms] (/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck.Service-VisionCheck)
+[2017.11.12-11.21.40:395][788]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_Service-VisionCheck_C - Previous (StructProperty) Current(BoolProperty) for package:  FObjectReader
+[2017.11.12-11.21.49:918][897]LogSavePackage: Save=17.05ms
+[2017.11.12-11.21.49:918][897]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Service-VisionCheckCF7611954D09E177744B16B17F0C71F7.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset'
+[2017.11.12-11.21.49:919][897]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset
+[2017.11.12-11.22.19:296][388]BlueprintLog: New page: Compile Service-VisionCheck
+[2017.11.12-11.22.19:307][388]LogBlueprint: Warning: [Compiler Service-VisionCheck] Can't parse default value '0.000000,0.000000,0.000000' for  <None> . Property: HomeSelected.
+[2017.11.12-11.22.19:349][388]LogBlueprint: Warning: [Compiler Service-VisionCheck] [1918.01] Compile of Service-VisionCheck successful, but with 1 Warning(s) [in 52 ms] (/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck.Service-VisionCheck)
+[2017.11.12-11.23.14:029][873]BlueprintLog: New page: Compile Service-VisionCheck
+[2017.11.12-11.23.15:945][ 76]LogSavePackage: Save=25.86ms
+[2017.11.12-11.23.15:945][ 76]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Service-VisionCheck6DD2F0094BC8DBBE2B1E4BAAAC9E4C07.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset'
+[2017.11.12-11.23.15:946][ 76]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset
