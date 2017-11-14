@@ -1,0 +1,523 @@
+﻿Log file open, 11/12/17 08:50:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CaveManVsAliens
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1421306733) SRandInit(1421306733).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3709383, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.165814
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3709383
+LogInit: Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Oct 20 2017 10:39:19
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: E:/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.12-10.50.25:167][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.12-10.50.25:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.12-10.50.25:200][  0]LogInit: Computer: ARTHUR-DESKTOP
+[2017.11.12-10.50.25:200][  0]LogInit: User: Arthur
+[2017.11.12-10.50.25:200][  0]LogInit: CPU Page size=4096, Cores=3
+[2017.11.12-10.50.25:200][  0]LogInit: High frequency timer resolution =3.433744 MHz
+[2017.11.12-10.50.25:200][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.11.12-10.50.25:200][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.12-10.50.25:200][  0]LogMemory: Process Physical Memory: 271.87 MB used, 271.87 MB peak
+[2017.11.12-10.50.25:200][  0]LogMemory: Process Virtual Memory: 269.72 MB used, 269.72 MB peak
+[2017.11.12-10.50.25:200][  0]LogMemory: Physical Memory: 3246.94 MB used,  4911.72 MB free, 8158.66 MB total
+[2017.11.12-10.50.25:200][  0]LogMemory: Virtual Memory: 647.02 MB used,  4911.72 MB free, 134217728.00 MB total
+[2017.11.12-10.50.25:402][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.11.12-10.50.25:402][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.11.12-10.50.25:955][  0]LogInit: Setting process to per monitor DPI aware
+[2017.11.12-10.50.26:583][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.12-10.50.26:611][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2017.11.12-10.50.26:611][  0]LogD3D11RHI:       2024/0/4079 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.11.12-10.50.26:623][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.12-10.50.26:623][  0]LogD3D11RHI:       0/0/4079 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.12-10.50.26:623][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.12-10.50.26:632][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.12-10.50.26:632][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.12-10.50.26:632][  0]LogWindows: EnumDisplayDevices:
+[2017.11.12-10.50.26:633][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2017.11.12-10.50.26:633][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.12-10.50.26:633][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.12-10.50.26:634][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.12-10.50.26:634][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.12-10.50.26:634][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.12-10.50.26:635][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.11.12-10.50.26:635][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2017.11.12-10.50.26:635][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.9.2 (internal:22.19.677.1, unified:22.19.677.1)
+[2017.11.12-10.50.26:635][  0]LogD3D11RHI:      Driver Date: 9-18-2017
+[2017.11.12-10.50.26:635][  0]LogRHI: Texture pool is 1417 MB (70% of 2024 MB)
+[2017.11.12-10.50.26:679][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.12-10.50.26:935][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.12-10.50.27:034][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Intermediate/Shaders/WorkingDirectory/8568/).
+[2017.11.12-10.50.27:034][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Arthur/AppData/Local/Temp/UnrealShaderWorkingDir/9885423D4CFC2035C18BCDB68E269CC5/'.
+[2017.11.12-10.50.27:044][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.12-10.50.30:862][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.12-10.50.30:957][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.12-10.50.31:050][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.12-10.50.31:146][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.12-10.50.31:271][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.12-10.50.31:368][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.12-10.50.31:479][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.12-10.50.31:571][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.12-10.50.31:656][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.12-10.50.31:760][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.12-10.50.31:859][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.12-10.50.31:959][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.12-10.50.32:058][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.12-10.50.32:147][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.12-10.50.32:324][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.12-10.50.32:324][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.12-10.50.32:441][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.12-10.50.32:512][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.12-10.50.32:714][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.12-10.50.32:767][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.12-10.50.32:858][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.12-10.50.32:947][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.12-10.50.33:041][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.12-10.50.33:179][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.12-10.50.33:179][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.12-10.50.34:582][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.12-10.50.35:859][  0]LogDerivedDataCache: Loaded boot cache 1.28s 78MB C:/Users/Arthur/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.12-10.50.35:859][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Arthur/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.11.12-10.50.35:860][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.12-10.50.35:860][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.12-10.50.35:860][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.12-10.50.35:860][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.12-10.50.35:927][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.12-10.50.35:941][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Arthur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.12-10.50.36:014][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.12-10.50.36:080][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.12-10.50.36:122][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.12-10.50.36:122][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.12-10.50.41:510][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.12-10.50.43:011][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.12-10.50.43:080][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.12-10.50.43:081][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.12-10.50.43:081][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.12-10.50.43:081][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.12-10.50.43:081][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.12-10.50.43:461][  0]LogNetVersion: CaveManVsAliens , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2311697827)
+[2017.11.12-10.50.44:468][  0]LogAssetRegistry: FAssetRegistry took 0.0329 seconds to start up
+[2017.11.12-10.50.50:269][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.136876 seconds
+[2017.11.12-10.50.50:276][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.11.12-10.50.50:276][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2017.11.12-10.50.50:276][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.12-10.50.50:358][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.12-10.51.05:828][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.12-10.51.05:916][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.12-10.51.07:784][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.12-10.51.08:969][  0]SourceControl: Source control is disabled
+[2017.11.12-10.51.11:607][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.12-10.51.12:049][  0]LogOcInput: OculusInput pre-init called
+[2017.11.12-10.51.12:560][  0]LogEngine: Initializing Engine...
+[2017.11.12-10.51.12:603][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.12-10.51.13:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.12-10.51.13:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.12-10.51.13:896][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.12-10.51.14:909][  0]LogInit: XAudio2 using 'Alto-falantes (2- Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.12-10.51.14:964][  0]LogInit: FAudioDevice initialized.
+[2017.11.12-10.51.14:978][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/Arthur/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.12-10.51.15:003][  0]LogInit: Texture streaming: Enabled
+[2017.11.12-10.51.15:254][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.12-10.51.15:634][  0]LogInit: Transaction tracking system initialized
+[2017.11.12-10.51.16:306][  0]BlueprintLog: New page: Editor Load
+[2017.11.12-10.51.18:478][  0]LocalizationService: Localization service is disabled
+[2017.11.12-10.51.20:403][  0]LogConsoleResponse: Display: 
+[2017.11.12-10.51.22:331][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/' took 0.02s
+[2017.11.12-10.51.22:331][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.12-10.51.22:331][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.12-10.51.22:337][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.12-10.51.25:418][  0]Cmd: MAP LOAD FILE="../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Maps/Empty.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.12-10.51.25:539][  0]LightingResults: New page: Lighting Build
+[2017.11.12-10.51.25:657][  0]MapCheck: New page: Map Check
+[2017.11.12-10.51.25:657][  0]LightingResults: New page: Lighting Build
+[2017.11.12-10.51.29:801][  0]LogAIModule: Creating AISystem for world Empty
+[2017.11.12-10.51.30:285][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.12-10.51.30:472][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.12-10.51.30:580][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.908ms to complete.
+[2017.11.12-10.51.30:580][  0]LogFileHelpers: Loading map 'Empty' took 5.181
+[2017.11.12-10.51.32:281][  0]LogCollectionManager: Loaded 0 collections in 0.002282 seconds
+[2017.11.12-10.51.32:588][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Collections/' took 0.01s
+[2017.11.12-10.51.32:588][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Developers/Arthur/Collections/' took 0.01s
+[2017.11.12-10.51.32:588][  0]LogFileCache: Scanning file cache for directory 'E:/_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Collections/' took 0.01s
+[2017.11.12-10.51.32:588][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.12-10.51.32:649][  0]LogContentBrowser: Native class hierarchy populated in 0.0609 seconds. Added 2363 classes and 519 folders.
+[2017.11.12-10.51.32:908][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.12-10.51.34:185][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.11.12-10.51.34:303][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.12-10.51.35:315][  0]LogSlate: Took 0.014252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.12-10.51.35:340][  0]LogSlate: Took 0.016009 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.12-10.51.35:394][  0]LogSlate: Took 0.015126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.12-10.51.38:574][  0]LogRenderer: Reallocating scene render targets to support 1256x640 Format 10 NumSamples 1 (Frame:1).
+[2017.11.12-10.51.40:015][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.12-10.51.40:015][  0]LogLoad: (Engine Initialization) Total time: 78.60 seconds
+[2017.11.12-10.51.40:015][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.12-10.51.40:015][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.12-10.51.40:450][  0]SourceControl: On branch master
+[2017.11.12-10.51.40:450][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.12-10.51.40:450][  0]SourceControl: Changes not staged for commit:
+[2017.11.12-10.51.40:450][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.12-10.51.40:450][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.12-10.51.40:450][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-27250C084219CED23505C2B17F52207A/CrashReportClient.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4E12D5564BB951AD220E9BB740A782FF/CrashReportClient.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8141A1D642B66C46F64811BA2709AAC7/CrashReportClient.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-9CAD0BCB4504C781E42A0088C241FB2D/CrashReportClient.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CD1D72DA40F266525527AFA1C509F047/CrashReportClient.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.12-10.51.40:450][  0]SourceControl: 	deleted:    Saved/Logs/CaveManVsAliens-backup-2017.11.06-13.21.21.log
+[2017.11.12-10.51.40:450][  0]SourceControl: 	modified:   Saved/Logs/CaveManVsAliens.log
+[2017.11.12-10.51.40:450][  0]SourceControl: Untracked files:
+[2017.11.12-10.51.40:450][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.12-10.51.40:450][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-40266237468FC01ECFAE59A8F6BE816F/
+[2017.11.12-10.51.40:451][  0]SourceControl: 	Saved/Logs/CaveManVsAliens-backup-2017.11.12-08.50.22.log
+[2017.11.12-10.51.40:451][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.12-10.51.40:457][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.12-10.51.40:618][  0]LogSlate: Took 0.029412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.12-10.51.41:385][  3]LogAssetRegistry: Asset discovery search completed in 56.9397 seconds
+[2017.11.12-10.51.41:396][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.12-10.51.41:396][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2017.11.12-11.05.24:089][130]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.12-11.06.02:225][679]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2017.11.12-11.06.03:644][692]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Empty' took 0.022
+[2017.11.12-11.06.03:672][692]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Content_CaveMan/Blueprints/AI/NewBehaviorTree] ([1] browsable assets)...
+[2017.11.12-11.06.03:672][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Content_CaveMan/Blueprints/AI/NewBehaviorTree]
+[2017.11.12-11.06.03:695][692]LogSavePackage: Save=16.06ms
+[2017.11.12-11.06.03:695][692]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/NewBehaviorTree_Auto17BD395174E1801445D7624B7F478259C.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/NewBehaviorTree_Auto1.uasset'
+[2017.11.12-11.06.03:695][692]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/NewBehaviorTree_Auto1.uasset
+[2017.11.12-11.06.03:696][692]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Content_CaveMan/Blueprints/AI/NewBlackboardData] ([1] browsable assets)...
+[2017.11.12-11.06.03:696][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Content_CaveMan/Blueprints/AI/NewBlackboardData]
+[2017.11.12-11.06.03:698][692]LogSavePackage: Save=0.95ms
+[2017.11.12-11.06.03:698][692]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/NewBlackboardData_Auto1EB7B8B2B4EABFCEDE2B02DB92B39BA20.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/NewBlackboardData_Auto1.uasset'
+[2017.11.12-11.06.03:698][692]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/NewBlackboardData_Auto1.uasset
+[2017.11.12-11.06.03:699][692]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Content_CaveMan/Blueprints/AI/AIEnemyController-BP] ([1] browsable assets)...
+[2017.11.12-11.06.03:699][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Content_CaveMan/Blueprints/AI/AIEnemyController-BP]
+[2017.11.12-11.06.03:710][692]LogSavePackage: Save=10.27ms
+[2017.11.12-11.06.03:710][692]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyController-BP_Auto1A816B443454959B3DBFB90A97AD8CAC0.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/AIEnemyController-BP_Auto1.uasset'
+[2017.11.12-11.06.03:711][692]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/AIEnemyController-BP_Auto1.uasset
+[2017.11.12-11.06.03:711][692]LogFileHelpers: Auto-saving content packages took 0.066
+[2017.11.12-11.06.17:624][950]SourceControl: On branch master
+[2017.11.12-11.06.17:624][950]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.12-11.06.17:624][950]SourceControl: Changes not staged for commit:
+[2017.11.12-11.06.17:624][950]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.12-11.06.17:624][950]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.12-11.06.17:624][950]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.12-11.06.17:624][950]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-27250C084219CED23505C2B17F52207A/CrashReportClient.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4E12D5564BB951AD220E9BB740A782FF/CrashReportClient.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8141A1D642B66C46F64811BA2709AAC7/CrashReportClient.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-9CAD0BCB4504C781E42A0088C241FB2D/CrashReportClient.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CD1D72DA40F266525527AFA1C509F047/CrashReportClient.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.12-11.06.17:624][950]SourceControl: 	deleted:    Saved/Logs/CaveManVsAliens-backup-2017.11.06-13.21.21.log
+[2017.11.12-11.06.17:624][950]SourceControl: 	modified:   Saved/Logs/CaveManVsAliens.log
+[2017.11.12-11.06.17:624][950]SourceControl: Untracked files:
+[2017.11.12-11.06.17:624][950]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.12-11.06.17:624][950]SourceControl: 	Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/
+[2017.11.12-11.06.17:624][950]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-40266237468FC01ECFAE59A8F6BE816F/
+[2017.11.12-11.06.17:624][950]SourceControl: 	Saved/Logs/CaveManVsAliens-backup-2017.11.12-08.50.22.log
+[2017.11.12-11.06.17:624][950]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.12-11.06.17:982][950]LogSavePackage: Save=1.02ms
+[2017.11.12-11.06.17:982][950]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyBehaviorTE664CEB5420D98D9DECAFC90A007B366.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBehaviorT.uasset'
+[2017.11.12-11.06.17:986][950]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBehaviorT.uasset
+[2017.11.12-11.06.31:848][479]SourceControl: On branch master
+[2017.11.12-11.06.31:848][479]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.12-11.06.31:848][479]SourceControl: Changes to be committed:
+[2017.11.12-11.06.31:848][479]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.11.12-11.06.31:848][479]SourceControl: 	new file:   Content/Content_CaveMan/Blueprints/AI/AIEnemyBehaviorT.uasset
+[2017.11.12-11.06.31:848][479]SourceControl: Changes not staged for commit:
+[2017.11.12-11.06.31:848][479]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.12-11.06.31:848][479]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.12-11.06.31:848][479]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.12-11.06.31:848][479]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.11.12-11.06.31:848][479]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-27250C084219CED23505C2B17F52207A/CrashReportClient.ini
+[2017.11.12-11.06.31:848][479]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4E12D5564BB951AD220E9BB740A782FF/CrashReportClient.ini
+[2017.11.12-11.06.31:848][479]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8141A1D642B66C46F64811BA2709AAC7/CrashReportClient.ini
+[2017.11.12-11.06.31:849][479]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-9CAD0BCB4504C781E42A0088C241FB2D/CrashReportClient.ini
+[2017.11.12-11.06.31:849][479]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CD1D72DA40F266525527AFA1C509F047/CrashReportClient.ini
+[2017.11.12-11.06.31:849][479]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.12-11.06.31:849][479]SourceControl: 	deleted:    Saved/Logs/CaveManVsAliens-backup-2017.11.06-13.21.21.log
+[2017.11.12-11.06.31:849][479]SourceControl: 	modified:   Saved/Logs/CaveManVsAliens.log
+[2017.11.12-11.06.31:849][479]SourceControl: Untracked files:
+[2017.11.12-11.06.31:849][479]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.12-11.06.31:849][479]SourceControl: 	Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/
+[2017.11.12-11.06.31:849][479]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-40266237468FC01ECFAE59A8F6BE816F/
+[2017.11.12-11.06.31:849][479]SourceControl: 	Saved/Logs/CaveManVsAliens-backup-2017.11.12-08.50.22.log
+[2017.11.12-11.06.32:151][479]LogSavePackage: Save=1.23ms
+[2017.11.12-11.06.32:151][479]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyBlackboardD7068E6941A95945B0BC31B18525C996.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset'
+[2017.11.12-11.06.32:153][479]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset
+[2017.11.12-11.07.42:123][775]LogSlate: Took 0.000718 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.12-11.08.48:119][407]LogSavePackage: Save=1.99ms
+[2017.11.12-11.08.48:119][407]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyBlackboard6B76D5294D6249D04CF5A8976C7EC3E1.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset'
+[2017.11.12-11.08.48:121][407]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset
+[2017.11.12-11.09.25:370][594]LogSavePackage: Save=1.88ms
+[2017.11.12-11.09.25:370][594]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyBlackboardCEECCB874EEFC29CA757CCA68C0004EB.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset'
+[2017.11.12-11.09.25:372][594]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset
+[2017.11.12-11.10.09:222][648]LogSavePackage: Save=1.28ms
+[2017.11.12-11.10.09:222][648]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyStateEnum8A1DFEE44E91A2187801978FC9A54032.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyStateEnum.uasset'
+[2017.11.12-11.10.09:224][648]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyStateEnum.uasset
+[2017.11.12-11.13.47:930][826]LogSlate: Took 0.006250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.12-11.14.01:671][241]LogSlate: Took 0.000640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.12-11.14.01:842][241]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2017.11.12-11.14.03:318][242]LogRenderer: Reallocating scene render targets to support 1256x712 Format 10 NumSamples 1 (Frame:1).
+[2017.11.12-11.14.05:401][470]BlueprintLog: New page: Compile AIEnemyController-BP
+[2017.11.12-11.14.15:844][594]LogSlate: Took 0.020295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.12-11.14.28:188][ 27]BlueprintLog: New page: Compile AIEnemyController-BP
+[2017.11.12-11.14.28:985][ 72]LogSavePackage: Save=14.29ms
+[2017.11.12-11.14.28:985][ 72]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyController-BP4A0332264E155FEA4B41F3A0DAFA5267.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset'
+[2017.11.12-11.14.28:987][ 72]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset
+[2017.11.12-11.14.29:237][ 73]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.
+[2017.11.12-11.14.44:538][883]LogSavePackage: Save=13.05ms
+[2017.11.12-11.14.44:538][883]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/AIEnemyController-BP24D44A55456FC3E17F76DD9FFDAF323E.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset'
+[2017.11.12-11.14.44:540][883]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset
+[2017.11.12-11.15.01:702][600]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Content_CaveMan/Blueprints/AI/BTService_BlueprintBase_New.
+[2017.11.12-11.15.25:831][453]SourceControl: On branch master
+[2017.11.12-11.15.25:831][453]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.12-11.15.25:831][453]SourceControl: Changes to be committed:
+[2017.11.12-11.15.25:831][453]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.11.12-11.15.25:831][453]SourceControl: 	new file:   Content/Content_CaveMan/Blueprints/AI/AIEnemyBehaviorT.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	new file:   Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	new file:   Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	new file:   Content/Content_CaveMan/Blueprints/AI/AIEnemyStateEnum.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: Changes not staged for commit:
+[2017.11.12-11.15.25:831][453]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.12-11.15.25:831][453]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Content/Content_CaveMan/Blueprints/AI/AIEnemyBlackboard.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Content/Content_CaveMan/Blueprints/AI/AIEnemyController-BP.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-27250C084219CED23505C2B17F52207A/CrashReportClient.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4E12D5564BB951AD220E9BB740A782FF/CrashReportClient.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8141A1D642B66C46F64811BA2709AAC7/CrashReportClient.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-9CAD0BCB4504C781E42A0088C241FB2D/CrashReportClient.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CD1D72DA40F266525527AFA1C509F047/CrashReportClient.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.12-11.15.25:831][453]SourceControl: 	deleted:    Saved/Logs/CaveManVsAliens-backup-2017.11.06-13.21.21.log
+[2017.11.12-11.15.25:831][453]SourceControl: 	modified:   Saved/Logs/CaveManVsAliens.log
+[2017.11.12-11.15.25:831][453]SourceControl: Untracked files:
+[2017.11.12-11.15.25:831][453]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.12-11.15.25:831][453]SourceControl: 	Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/
+[2017.11.12-11.15.25:831][453]SourceControl: 	Saved/Backup/AIEnemyBlackboard_2017-11-12-09-08-48.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	Saved/Backup/AIEnemyController-BP_2017-11-12-09-14-44.uasset
+[2017.11.12-11.15.25:831][453]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-40266237468FC01ECFAE59A8F6BE816F/
+[2017.11.12-11.15.25:831][453]SourceControl: 	Saved/Logs/CaveManVsAliens-backup-2017.11.12-08.50.22.log
+[2017.11.12-11.15.26:154][453]LogMetaData: Removing '/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck.SKEL_Service-VisionCheck_C' ref from Metadata '/Game/Content_CaveMan/Blueprints/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2017.11.12-11.15.26:154][453]LogMetaData: Removing '/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck.Service-VisionCheck_C' ref from Metadata '/Game/Content_CaveMan/Blueprints/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2017.11.12-11.15.26:177][453]LogSavePackage: Save=3.17ms
+[2017.11.12-11.15.26:177][453]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Service-VisionCheckDDC5407C44E953138DAC12A982F0E61C.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset'
+[2017.11.12-11.15.26:178][453]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset
+[2017.11.12-11.15.26:811][462]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck.
+[2017.11.12-11.15.59:738][971]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Content_CaveMan/Blueprints/BP-Enemy.
+[2017.11.12-11.16.09:499][961]BlueprintLog: New page: Compile BP-Enemy
+[2017.11.12-11.17.19:207][115]BlueprintLog: New page: Compile BP-Enemy
+[2017.11.12-11.17.19:948][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Content_CaveMan/Blueprints/BP-Enemy" FILE="../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Enemy.uasset" SILENT=true
+[2017.11.12-11.17.19:980][150]LogSavePackage: Save=30.71ms
+[2017.11.12-11.17.19:980][150]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/BP-EnemyCB28B83940FEB72A1C6B818D4DED839D.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Enemy.uasset'
+[2017.11.12-11.17.19:982][150]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/BP-Enemy.uasset
+[2017.11.12-11.17.20:284][157]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Content_CaveMan/Blueprints/BP-Enemy.
+[2017.11.12-11.19.12:852][436]LogSlate: Took 0.019719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.12-11.20.24:043][819]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Empty' took 0.037
+[2017.11.12-11.20.24:045][819]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck] ([1] browsable assets)...
+[2017.11.12-11.20.24:045][819]OBJ SavePackage: Finished generating thumbnails for package [/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck]
+[2017.11.12-11.20.24:063][819]LogSavePackage: Save=13.25ms
+[2017.11.12-11.20.24:063][819]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Service-VisionCheck_Auto22A5613EA4DFAC75A4C62E39D23A6ADF2.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck_Auto2.uasset'
+[2017.11.12-11.20.24:064][819]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Autosaves/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck_Auto2.uasset
+[2017.11.12-11.20.24:064][819]LogFileHelpers: Auto-saving content packages took 0.020
+[2017.11.12-11.20.49:791][890]LogClass: Warning: Property NewVar_0 of NewVar_0 has a struct type mismatch (tag BlackboardKeySelector != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.11.12-11.20.50:808][  9]BlueprintLog: New page: Compile Service-VisionCheck
+[2017.11.12-11.20.50:816][  9]LogBlueprint: Error: [Compiler Service-VisionCheck] The current value of the ' Key ' pin is invalid: 'Key' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.11.12-11.20.50:855][  9]LogBlueprint: Warning: [Compiler Service-VisionCheck] [1829.51] Compile of Service-VisionCheck failed. 1 Fatal Issue(s) 0 Warning(s) [in 46 ms] (/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck.Service-VisionCheck)
+[2017.11.12-11.21.40:395][788]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_Service-VisionCheck_C - Previous (StructProperty) Current(BoolProperty) for package:  FObjectReader
+[2017.11.12-11.21.49:918][897]LogSavePackage: Save=17.05ms
+[2017.11.12-11.21.49:918][897]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Service-VisionCheckCF7611954D09E177744B16B17F0C71F7.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset'
+[2017.11.12-11.21.49:919][897]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset
+[2017.11.12-11.22.19:296][388]BlueprintLog: New page: Compile Service-VisionCheck
+[2017.11.12-11.22.19:307][388]LogBlueprint: Warning: [Compiler Service-VisionCheck] Can't parse default value '0.000000,0.000000,0.000000' for  <None> . Property: HomeSelected.
+[2017.11.12-11.22.19:349][388]LogBlueprint: Warning: [Compiler Service-VisionCheck] [1918.01] Compile of Service-VisionCheck successful, but with 1 Warning(s) [in 52 ms] (/Game/Content_CaveMan/Blueprints/AI/Service-VisionCheck.Service-VisionCheck)
+[2017.11.12-11.23.14:029][873]BlueprintLog: New page: Compile Service-VisionCheck
+[2017.11.12-11.23.15:945][ 76]LogSavePackage: Save=25.86ms
+[2017.11.12-11.23.15:945][ 76]LogSavePackage: Moving '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Saved/Service-VisionCheck6DD2F0094BC8DBBE2B1E4BAAAC9E4C07.tmp' to '../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset'
+[2017.11.12-11.23.15:946][ 76]LogSavePackage: Display: Finished SavePackage ../../../../../_PROGRAMAÇÃO/__ProjetosUE/CaveManVsAliens/Content/Content_CaveMan/Blueprints/AI/Service-VisionCheck.uasset
